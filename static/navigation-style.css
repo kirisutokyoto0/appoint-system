@@ -1,0 +1,28 @@
+/* Custom Navbar styles */
+.custom-nav {
+    background-color: rgba(255, 255, 255, 0.3); /* Transparent white background */
+    backdrop-filter: blur(10px); /* Adds a slight blur for better blending */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
+  
+/* Navbar text color for readability */
+.custom-nav .nav-link, .custom-nav .navbar-brand {
+    color: #333; /* Dark text color to contrast against light gray background */
+}
+
+/* Mobile toggler icon color */
+.custom-nav .navbar-toggler-icon {
+    filter: invert(1); /* Changes the color of the icon to contrast */
+}
+
+/* Navbar text color */
+.custom-nav .nav-link {
+    color: #333; /* Dark text color */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect: fixed green color */
+.custom-nav .nav-link:hover {
+    transform: scale(1.1); /* Expands the text by 10% */
+    color: #28a745; /* Fixed green color on hover */
+}
